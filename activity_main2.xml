@@ -2,73 +2,25 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/button_bg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
-<!-- this is the comment -->
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    android:background="@drawable/green_bg"
+    tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/wellnesscentre"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="43dp" />
-
-    <Button
-        android:id="@+id/button"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/button1"
-        app:backgroundTint="@color/green"
-        android:text="beauty"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="CHOOSE ONE CATEGORY"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="45dp"
         android:textStyle="italic"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="212dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="6dp" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/button1"
-        app:backgroundTint="@color/green"
-        android:text="yoga"
-        android:textStyle="italic"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="591dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/button1"
-        app:backgroundTint="@color/green"
-        android:text="medical"
-        android:textStyle="italic"
-        tools:layout_editor_absoluteX="269dp"
-        tools:layout_editor_absoluteY="212dp" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/button1"
-        app:backgroundTint="@color/green"
-        android:text="meditation"
-        android:textStyle="italic"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="591dp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="404dp"
-        android:layout_height="168dp"
-        app:srcCompat="@drawable/grinding"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="0dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

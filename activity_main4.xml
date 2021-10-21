@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/button_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagexml4"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/angry_btn"
+        android:layout_width="411dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/button_shape"
+        android:text="SHAVASANA"
+        android:textSize="25dp"
+        app:backgroundTint="@drawable/button_shape"
+        app:layout_constraintBottom_toTopOf="@+id/angry_btn_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/angry_btn_2"
+        android:layout_width="411dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/button_shape"
+        android:text="VAJRASANA      "
+        android:textSize="25dp"
+        app:backgroundTint="@drawable/button_shape"
+        app:layout_constraintBottom_toTopOf="@+id/angry_btn_3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/angry_btn" />
+
+    <Button
+        android:id="@+id/angry_btn_3"
+        android:layout_width="411dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/button_shape"
+        android:text="Gomukhasana"
+        android:textSize="25dp"
+        app:backgroundTint="@drawable/button_shape"
+        app:layout_constraintBottom_toTopOf="@+id/angry_btn_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/angry_btn_2" />
+
+    <Button
+        android:id="@+id/angry_btn_4"
+        android:layout_width="387dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/button_shape"
+        android:text="ardha chandrasana"
+        android:textSize="25dp"
+        app:backgroundTint="@drawable/button_shape"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/angry_btn_3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="281dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/button_shape"
+        android:text="  normal walking"
+        android:textSize="25dp"
+        app:backgroundTint="@drawable/button_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/angry_btn_4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
